@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 import requests
-from sys import argv
+import sys
 
-username = argv[1]
-password = argv[2]
+username = sys.argv[1]
+password = sys.argv[2]
 
 url = "https://api.github.com/user"
 
